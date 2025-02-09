@@ -1,0 +1,25 @@
+# Ignorar la carpeta .terraform y todo su contenido
+.terraform/
+
+# Ignorar archivos de estado de Terraform (importante para evitar conflictos)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignorar archivos de configuración local de Terraform
+*.tfvars
+*.tfvars.json
+
+# Ignorar logs y archivos temporales
+*.log
+*.bak
+*.swp
+
+# Opcional: Ignorar archivos de credenciales (si se manejan localmente)
+.terraformrc
+terraform.rc
+vnb-gvtk-zjq
+
+
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl.terraform/
